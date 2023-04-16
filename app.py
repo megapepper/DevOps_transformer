@@ -120,8 +120,7 @@ st.markdown("<img width=200px src='https://shapka-youtube.ru/wp-content/uploads/
             unsafe_allow_html=True)
 title = st.text_area("Article title:")
 abstract = st.text_area("Article abstract:")
-labels = ["mathematics", "biology", "history", "machine learning", "neural networks", "programming", "literature",
-          "medicine"]
+labels = ["mathematics", "physics", "machine learning", "neural networks", "programming",  "medicine"]
 try:
     if title:
         text = title
